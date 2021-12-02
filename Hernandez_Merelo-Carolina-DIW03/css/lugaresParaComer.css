@@ -1,0 +1,208 @@
+/**********HEADER**********/
+/*****ETIQUETA*****/
+/*****CLASS*****/
+/*****ID*****/
+
+/**********BODY**********/
+/*****ETIQUETA*****/
+body {
+    background-image: url("../img/fondo1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color:orange;
+}
+
+a:visited {
+    color:rgb(110, 41, 1);
+}
+
+h3 {
+    color: white;
+    line-height: 0%;
+}
+
+p {
+    color: white;
+    line-height: 100%;
+}
+
+/*****CLASS*****/
+.boton {
+    height: 60px;
+    width: 60px;
+}
+
+.txtBoton {
+    color: rgb(2, 2, 2);
+    background-color: rgba(255, 255, 255, 0.445);
+    height: 2em;
+    width: 11em;
+    font-size: 0.9em;
+    padding: 1%;
+    margin: 0.3%;
+    margin-left: 0%;
+}
+
+.imgBoton {
+    border: 1px solid white;
+    border-radius: 10%;
+    margin-left: 0.5%;
+    padding: 0.7% 1% 0% 1%;
+}
+
+.barra {
+    background-color: black;
+    width: 16em;
+    height: 2em;
+}
+
+.lugares {
+    padding-bottom: 5%;
+}
+
+.lugar {
+    padding: 0% 2%;
+}
+
+/*.txtLugar {
+}*/
+
+p.breveExplicacion {
+    margin: 0%;
+    font-size: small;
+}
+
+.star {
+    height: 1.1em;
+}
+
+/*****ID*****/
+#main {
+    border: 2px solid;
+    margin: 0% 3% 0% 4%;
+    padding: 0%;
+}
+
+#divBotones {
+    width: 30%;
+    padding: 10% 0% 10% 0%;
+}
+
+#espacioBarras {
+    background-color: transparent;
+}
+
+#divMedioLugares {
+    padding: 1% 1% 1% 1%;
+    margin: 0%;
+    width: 39em;
+}
+
+#barraPequeña {
+    background-color: black;
+    width: 3em;
+    height: 2em;
+}
+
+#arrowDown {
+    width: 2em;
+    height: 2em;
+}
+
+#tituloLugares {
+    background-color: rgba(255, 166, 0, 0.445);
+    padding: 0.5% 20% 0.5% 20%;
+    margin: 5%;
+}
+
+#btnSeleccionado {
+    background-color: rgba(255, 166, 0, 0.445);
+}
+
+#lugaresAbajo {
+    padding: 0%;
+}
+
+#logo {
+    width: 25%;
+    padding-top: 3%;
+}
+
+#imgLogo {
+    width: 80%;
+    height: 25%;
+}
+
+#divMedio {
+    width: 60em;
+}
+
+
+/**********FOOTER**********/
+/*****ETIQUETA*****/
+/*****CLASS*****/
+/*****ID*****/
+
+/**********FLEX**********/
+.flex_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex_col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_row_reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex_item_center {
+    display: flex;
+    align-items: center;
+}
+
+.flex_item_end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.flex_content_center {
+    display: flex;
+    align-content: center;
+}
+
+.flex_content_end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex_justify_center { 
+    display: flex;
+    justify-content: center;
+}
+
+.flex_justify_right { 
+    display: flex;
+    justify-content: right;
+}
+
+
+
+
+
